@@ -1,0 +1,93 @@
+/* COMUNI */
+.ms_bg_green {
+    background-color: rgb(30, 188, 156);
+}
+
+.ms_bg_blue {
+    background-color: rgb(57, 84, 109);
+}
+
+.ms_bg_darkblue {
+    background-color: rgb(44, 61, 80);
+}
+
+.dash {
+    width: 65px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.dash.black{
+    background-color: #000;
+}
+
+.ms_btn_green {
+    background-color: rgb(30, 188, 156);
+    border: none;
+}
+
+.ms_form_border {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}
+
+.ms_green_txt {
+    color: rgb(30, 188, 156);
+}
+/* FINE COMUNI */
+
+
+/* HEADER */
+.ms_navbar_link {
+    color: #fff !important;
+}
+
+.ms_navbar_link:hover {
+    color: rgb(30, 188, 156) !important;
+}
+/* FINE HEADER */
+
+
+
+/* JUMBOTRON */
+#jumbotron {
+    padding-top: 70px;
+}
+
+#jumbotron .avatar {
+    width: 180px;
+}
+
+/* #jumbotron .bi-star-fill::before {
+    content: "";
+    width: 45px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+}
+
+#jumbotron .bi-star-fill::after {
+    content: "";
+    width: 45px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+} */
+/* FINE JUMBOTRON */
+
+
+
+/* MAIN */
+/* FINE MAIN */
+
+
+
+/* FOOTER */
+/* FINE FOOTER */
