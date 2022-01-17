@@ -11,20 +11,41 @@
     background-color: rgb(44, 61, 80);
 }
 
-.dash {
-    width: 65px;
+.ms_star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms_star::before,
+.ms_star::after {
+    content: "";
+    width: 15%;
     height: 3px;
     background-color: #fff;
     border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.dash.black{
+.ms_star.black::before,
+.ms_star.black::after {
     background-color: #000;
+}
+
+.ms_star .bi-star-fill {
+    display: inline-block;
+    width: 7%;
+    font-size: 20px;
 }
 
 .ms_btn_green {
     background-color: rgb(30, 188, 156);
     border: none;
+}
+
+.ms_btn_green:hover {
+    background-color: #18967d;
 }
 
 .ms_form_border {
@@ -34,8 +55,13 @@
     border-radius: 0;
 }
 
-.ms_green_txt {
-    color: rgb(30, 188, 156);
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
 }
 /* FINE COMUNI */
 
@@ -60,34 +86,59 @@
 #jumbotron .avatar {
     width: 180px;
 }
-
-/* #jumbotron .bi-star-fill::before {
-    content: "";
-    width: 45px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 3px;
-    position: absolute;
-    left: 0;
-}
-
-#jumbotron .bi-star-fill::after {
-    content: "";
-    width: 45px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 3px;
-    position: absolute;
-    right: 0;
-} */
 /* FINE JUMBOTRON */
 
 
 
-/* MAIN */
-/* FINE MAIN */
+/* PORTFOLIO */
+.ms_portfolio_item {
+    position: relative;
+    border-radius: 5px;
+}
+
+.ms_layover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.75);
+    overflow: hidden;
+}
+
+.ms_layover .bi {
+    color: #fff;
+    font-size: 80px;
+}
+
+.ms_portfolio_item:hover .ms_layover {
+    display: flex;
+}
+
+.ms_portfolio_item:hover{
+    cursor: pointer;
+}
+/* FINE PORTFOLIO */
 
 
 
 /* FOOTER */
+.ms_fb {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.ms_green_txt {
+    color: rgb(30, 188, 156);
+}
+
+.ms_green_txt:hover {
+    color: #18967d;
+}
 /* FINE FOOTER */
